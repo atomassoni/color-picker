@@ -1,0 +1,13 @@
+body {
+
+}
+
+#reload {
+  background-color: darkgrey;
+  margin:10px;
+}
+.color-block {
+  height:100px;
+  width:100px;
+  float:left;
+}
