@@ -7,13 +7,24 @@
     <script type="text/javascript" src="colorpicker.js"></script>
   </head>
   <body>
+<form id="settings">
+
+  <input type="number" id="block-counter" name="blockcounter" />
+  <input type="submit" value="Load Blocks" />
+</form>
+
     <p>
       <span> Click hex color </span>
-      <span id="color-to-pick"></span>
+      <span id="color-to-pick">
+        #<span id="red"></span><span id="green"></span><span id="blue"></span>
+      </span>
     </p>
     <p id="message">
 
-    </p><button id="reload">Change guess color</button>
+    </p>
+    <button id="newcolor">Change Color</button>
+
+
 <div id="container">
 
 </div>
